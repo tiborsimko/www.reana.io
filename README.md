@@ -6,13 +6,15 @@
 
 ## About
 
-REANA is a platform for reusable research data analyses. It permits researchers to
-structure their analysis data, code, environment and workflows in reusable manner. REANA
-command-line client allows users to instantiate and run computational research data
-analysis workflows on remote containerised compute clouds. REANA was born to target the
-use case of particle physics analyses, but is applicable to any scientific discipline.
+REANA is a platform for reusable research data analyses. It permits researchers
+to structure their analysis data, code, environment and workflows in reusable
+manner. REANA command-line client allows users to instantiate and run
+computational research data analysis workflows on remote containerised compute
+clouds. REANA was born to target the use case of particle physics analyses, but
+is applicable to any scientific discipline.
 
-This repository holds the REANA project web site [www.reana.io](https://www.reana.io).
+This repository holds the REANA project web site
+[www.reana.io](https://www.reana.io).
 
 ## Developing
 
