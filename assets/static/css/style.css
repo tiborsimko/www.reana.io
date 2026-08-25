@@ -249,8 +249,31 @@ a:focus {
     margin-left: 10px;
   }
 }
-.release-news {
+.release-news-group {
   width: 80%;
+  display: inline-block;
+  position: relative;
+  padding-top: 12px;
+}
+.release-news-group + .release-news-group {
+  margin-top: 28px;
+}
+.release-news-label {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: 1;
+  padding: 0 10px;
+  background-color: white;
+  color: #2d3e4f;
+  font-size: 0.7em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.release-news {
+  width: 100%;
   display: inline-table;
   border: 1px solid #2d3e4e;
 }
