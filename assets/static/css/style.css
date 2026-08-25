@@ -132,6 +132,12 @@ a:focus {
 .features-section .scalable-section .slurm {
   height: 60px;
 }
+.features-section .reusable-section img {
+  vertical-align: middle;
+}
+.features-section .reusable-section .apptainer {
+  height: 51px;
+}
 .features-section div[class*="col-"] {
   margin-top: 40px;
 }
