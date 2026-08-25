@@ -13,7 +13,8 @@ COPY . /code
 
 # Build website
 ENV LC_ALL=C.UTF-8
-RUN lektor build -O _build
+RUN lektor build -O _build && \
+    rm -rf _build/.lektor
 
 # Serve static website with nginx
 FROM docker.io/library/nginx:1.25-alpine
