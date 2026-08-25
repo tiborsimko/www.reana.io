@@ -1,2 +1,1 @@
-Lektor==3.3.10
-setuptools<81
+Lektor==3.3.14
